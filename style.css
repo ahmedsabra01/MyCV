@@ -1,0 +1,105 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+
+    
+    background-color: rgb(237, 240, 243);
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+   }
+
+   b {
+    font-size: 18px;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .side {
+    flex: 25%;
+    background-color: white;
+    padding: 20px;
+    
+    
+  }
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    
+  }
+  .profil-image {
+    background-image: url("sabra.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0.5em;
+  }
+  .name{
+    text-align: left;
+    margin-left: 0.5em;
+    margin-top:  13.5em; 
+    color: white;
+  }
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 midnightblue, 0 6px 20px 0 midnightblue;
+    padding-bottom: 2em;
+   }
+
+   .info-panel, .exp-panel, .edu-panel {
+    font-size: 16px;
+    color: #666666;
+    padding: 0.5em 1.5em;   
+    color: midnightblue; 
+  }
+  .skills-bar, .language-bar {
+    width: 100%;
+    background-color: #e6e6ff;
+    border-radius: 1em;
+  }
+  .skills, .language {
+    font-size: 12px;
+    text-align: center;  
+    color: white;
+  }
+.html {width: 90%; background-color: midnightblue; border-radius: 1em;}
+.css {width: 80%; background-color: midnightblue; border-radius: 1em;}
+.js {width: 65%; background-color: midnightblue; border-radius: 1em;}
+.java {width: 60%; background-color: midnightblue; border-radius: 1em;}
+.arabic {width: 100%; background-color: midnightblue; border-radius: 1em;}
+.english {width: 75%; background-color: midnightblue; border-radius: 1em;}
+.french {width: 60%; background-color: midnightblue; border-radius: 1em;}
+.german {width: 40%; background-color: midnightblue; border-radius: 1em;}
+
+mark {
+    padding: 5px;
+    background-color: midnightblue;
+    color:white;
+    border-radius: 0.2em;
+ }
+footer {
+      text-align: center;
+      text-decoration: none;
+      background-color: midnightblue;
+      color: black;
+      padding: 1em;
+ }
+.social-links {
+      color: #ffffff;  
+ }
+.social-links :hover {
+      color: black;   
+ }
+.social img{border-radius: 50% ;width: 40px;height: 40px;}
+
+
+  
